@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+
+#nav{
+  font-family: 'Alegreya Sans SC';
+  -webkit-box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
+  box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
+  border-radius: 8px;
+  display: flex;
+}
+
+#brandName{
+  color: #6C757D;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
+#navText{
+  color: white;
+  font-size: large;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s ;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border: 2px white solid;
+}
+
+#navText:hover{
+  color: #6C757D;
+  background-color: white ;
+  box-shadow: 0 0 25px white;
+}
+
+#basic-nav-dropdown{
+  color: white;
+  font-size: large;
+  border: 2px white solid;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s ;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+#basic-nav-dropdown:hover{
+  color: #6C757D;
+  background-color: white ;
+  box-shadow: 0 0 25px white;
+}
+
+#dropdownList{
+  border-radius: 50px;
+  color: #6C757D ;
+  border: 2px #6C757D solid;
+  font-size: large;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s ;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+#dropdownList:hover{
+  background-color: #6C757D;
+  color: white;
+  box-shadow: 0 0 15px #6C757D;
+}
