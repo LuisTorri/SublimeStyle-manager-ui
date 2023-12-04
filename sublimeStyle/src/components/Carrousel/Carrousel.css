@@ -4,10 +4,15 @@
   display: flex;
   position: relative;
   margin: auto;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;  
-  box-shadow: -1px 11px 30px rgba(0,0,0,0.59);
+  /* border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;   */
+  border-radius: 50px;
   overflow: hidden;
+  border: 2px #C2B7B3 solid;
+  top: 15px;
+  -webkit-box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
+  box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
 }
 
 .carousel{

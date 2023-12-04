@@ -11,47 +11,53 @@ import "./Slider.css";
 import sliderimg1 from "./Slider_Images/sliderImg1.png";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 export default function Slider() {
   return (
     <>
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
+        spaceBetween={0}
+        loop={true}
         centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        speed={5000}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        slidesPerView={5}
+        modules={[Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sliderimg1} style={{ height: "400px" }} />
+          <img src={sliderimg1}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={sliderimg1}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={sliderimg1}></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={sliderimg1}></img>
         </SwiperSlide>
       </Swiper>
     </>

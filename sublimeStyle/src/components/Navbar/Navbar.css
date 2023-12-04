@@ -5,12 +5,12 @@
   -webkit-box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
   -moz-box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
   box-shadow: -1px 11px 25px 0px rgba(0,0,0,0.59);
-  border-radius: 8px;
+  border-radius: 15px;
   background-color: #C2B7B3;
 }
 
 #brandName{
-  color: gray;
+  color: #C2B7B3;
   width: 200px;
   font-size: 30px;
   text-align: center;
@@ -24,7 +24,7 @@
   color: white;
   font-size: large;
   border-radius: 20px;
-  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s ;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
   margin: 10px;
   width: auto;
   height: auto;
@@ -36,24 +36,26 @@
   color: #C2B7B3;
   background-color: white ;
   box-shadow: 0 0 25px white;
+  transform: scale(1.1);
 }
 
 #basic-nav-dropdown{
   color: white;
   font-size: large;
-  border: 2px white solid;
   border-radius: 20px;
-  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s ;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
   margin: 10px;
   width: auto;
   height: auto;
   text-align: center;
+  border: 2px white solid;
 }
 
 #basic-nav-dropdown:hover{
   color: #C2B7B3;
   background-color: white ;
   box-shadow: 0 0 25px white;
+  transform: scale(1.1);
 }
 
 #dropdownList{
@@ -61,7 +63,7 @@
   color: gray ;
   border: 2px #C2B7B3 solid;
   font-size: large;
-  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s ;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s ;
   margin: 10px;
   width: auto;
   height: auto;
@@ -72,4 +74,5 @@
   background-color: #C2B7B3;
   color: white;
   box-shadow: 0 0 15px #C2B7B3;
+  transform: scale(1.05);
 }
