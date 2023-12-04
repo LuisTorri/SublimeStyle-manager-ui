@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 function Navibar() {
   return (
-    <Navbar sticky="top" expand="lg" id="nav" className="bg-secondary">
+    <Navbar sticky="top" expand="lg" id="nav">
       <Container>
         <Navbar.Brand id="brandName">Sublime Style</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

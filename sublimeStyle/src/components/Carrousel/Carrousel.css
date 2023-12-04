@@ -1,0 +1,17 @@
+.carouselImage{
+  width: 97%;
+  height: 850px;
+  display: flex;
+  position: relative;
+  margin: auto;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;  
+  box-shadow: -1px 11px 30px rgba(0,0,0,0.59);
+  overflow: hidden;
+}
+
+.carousel{
+  display: flex;
+  height: 900px;
+  overflow: hidden;
+}
